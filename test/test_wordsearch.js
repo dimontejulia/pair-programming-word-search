@@ -89,7 +89,7 @@ describe("#wordSearch()", function () {
   it("should return true if the word is backwards", function () {
     const result = wordSearch(
       [
-        ["E", "W", "C", "F", "Q", "U", "A", "L"],
+        ["E", "W", "C", "F", "Q", "U", "A", "L"], //0, 0
         ["D", "E", "I", "N", "F", "E", "L", "D"],
         ["O", "E", "C", "F", "Q", "O", "A", "D"],
         ["C", "M", "J", "T", "E", "V", "R", "G"],

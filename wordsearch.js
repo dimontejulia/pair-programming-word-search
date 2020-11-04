@@ -22,9 +22,8 @@ const wordSearch = (letters, word) => {
         return true;
       }
     }
+    return false;
   }
-
-  return false;
 };
 
 module.exports = wordSearch;
